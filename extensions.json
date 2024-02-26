@@ -3,6 +3,6 @@
     "name": "JoeGPT",
     "description": "A artificial \"\"\"\"\"\"\"\"intelligence\"\"\"\"\"\"\"\" that really only reports \"joe\"",
     "credits": "PuzzlingGGG",
-    "link": "https://raw.githubusercontent.com/PuzzlingGGG/puz-ext/main/extensions/js/joegpt.js"
+    "link": "https://puz-ext.vercel.app/js/joegpt.js"
   }
 ]
