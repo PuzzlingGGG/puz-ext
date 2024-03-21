@@ -3,13 +3,15 @@
     "name": "JoeGPT",
     "description": "A artificial \"\"\"\"\"\"\"\"intelligence\"\"\"\"\"\"\"\" that really only reports \"joe\"",
     "credits": "PuzzlingGGG",
-    "link": "https://puz-ext.vercel.app/extensions/js/joegpt.js"
+    "link": "https://puz-ext.vercel.app/extensions/js/joegpt.js",
+    "unsandboxed": false
   },
   {
     "name": "Text to Speech: Rewritten",
     "description": "Generate better TTS! Made using TTS Tool API!",
     "credits": "PuzzlingGGG",
     "link": "https://puz-ext.vercel.app/extensions/js/ttsr.js",
-    "banner": "https://puz-ext.vercel.app/extensions/banner/TTSR.png"
+    "banner": "https://puz-ext.vercel.app/extensions/banner/TTSR.png",
+    "unsandboxed": true
   }
 ]
