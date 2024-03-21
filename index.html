@@ -37,12 +37,15 @@ function displayCards(data) {
     const cardElement = document.createElement('div');
     cardElement.classList.add('card');
     let bannerContent = ext.banner ? `<img src="${ext.banner}" alt="Banner">` : `<div class="no-banner">This extension has no banner</div>`;
+    let buttonsHTML = `
+      <button onclick="copyLink('${ext.link}')">Copy Link</button>
+      ${ext.unsandboxed ? '' : `<button onclick="testExtension('${encodeURIComponent(ext.link)}')">Test!</button>`}
+    `;
     cardElement.innerHTML = `
       <div class="banner">
         ${bannerContent}
         <div class="banner-buttons">
-          <button onclick="copyLink('${ext.link}')">Copy Link</button>
-          <button onclick="testExtension('${encodeURIComponent(ext.link)}')">Test!</button>
+          ${buttonsHTML}
         </div>
       </div>
       <div class="container">
