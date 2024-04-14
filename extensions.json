@@ -21,5 +21,5 @@
     "link": "https://puz-ext.vercel.app/extensions/js/underspeech.js",
     "banner": "https://puz-ext.vercel.app/extensions/banner/underspeech.png",
     "unsandboxed": true
-  },
+  }
 ]
